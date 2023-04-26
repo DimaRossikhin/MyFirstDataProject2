@@ -1,4 +1,4 @@
-# MyFirstDataProject2
+# My First Data Project 2
 
 Настоящая работа посвящена созданию модели машинного обучения и сервиса, определяющих генетические расстройства, в рамках прохождения курса "My First Data Project 2: от идеи к продукту" (https://ods.ai/tracks/mfdp2).
 
