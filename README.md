@@ -43,6 +43,6 @@
 - ансамбли моделей: 
    - Bagging на RandomForestClassifier;
    - AdaBoosting на DecisionTreeClassifier;
-   - Steching на KNeighborsClassifier, DecisionTreeClassifier, RandomForestClassifier, GradientBoostingClassifier;
+   - Stecking на KNeighborsClassifier, DecisionTreeClassifier, RandomForestClassifier, GradientBoostingClassifier;
 - полносвязная нейронная сеть ручной подборкой архитектуры;
 - полносвязная нейронная сеть с подборкой архитектуры посредством Keras Tuner.
