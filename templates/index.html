@@ -1,0 +1,51 @@
+<div class = "login">
+    <h1>Предсказание класса "Genetic Disorder Label"</h1>
+     <h3>Введите значения известных параметров:</h3>
+
+    <form action="{{ url_for('predict')}}"method="post">
+        <input type="text" name="1" placeholder="Patient Age" required="required" />
+        <input type="text" name="2" placeholder="Genes in mother's side" required="required" />
+        <input type="text" name="3" placeholder="Inherited from father" required="required" />
+        <input type="text" name="4" placeholder="Maternal gene " required="required" />
+        <input type="text" name="5" placeholder="Paternal gene" required="required" />
+        <input type="text" name="6" placeholder="Blood cell count (mcL)" required="required" />
+        <input type="text" name="7" placeholder="Mother's age" required="required" />
+        <input type="text" name="8" placeholder="Father's age" required="required" />
+        <input type="text" name="9" placeholder="Status" required="required" />
+        <input type="text" name="10" placeholder="Respiratory Rate (breaths/min)" required="required" />
+        <input type="text" name="11" placeholder="Heart Rate (rates/min" required="required" />
+        <input type="text" name="12" placeholder="Test 1" required="required" />
+        <input type="text" name="13" placeholder="Test 2" required="required" />
+        <input type="text" name="14" placeholder="Test 3" required="required" />
+        <input type="text" name="15" placeholder="Test 4" required="required" />
+        <input type="text" name="16" placeholder="Test 5" required="required" />
+        <input type="text" name="17" placeholder="Follow-up" required="required" />
+        <input type="text" name="18" placeholder="Gender" required="required" />
+        <input type="text" name="19" placeholder="Birth asphyxia" required="required" />
+        <input type="text" name="20" placeholder="Autopsy shows birth defect (if applicable)" required="required" />
+        <input type="text" name="21" placeholder="Place of birth" required="required" />
+        <input type="text" name="22" placeholder="Folic acid details (peri-conceptional)" required="required" />
+        <input type="text" name="23" placeholder="H/O serious maternal illness" required="required" />
+        <input type="text" name="24" placeholder="H/O radiation exposure (x-ray)" required="required" />
+        <input type="text" name="25" placeholder="H/O substance abuse" required="required" />
+        <input type="text" name="26" placeholder="Assisted conception IVF/ART" required="required" />
+        <input type="text" name="27" placeholder="History of anomalies in previous pregnancies" required="required" />
+        <input type="text" name="28" placeholder="No. of previous abortion" required="required" />
+        <input type="text" name="39" placeholder="Birth defects" required="required" />
+        <input type="text" name="30" placeholder="White Blood cell count (thousand per microliter)" required="required" />
+        <input type="text" name="31" placeholder="Blood test result " required="required" />
+        <input type="text" name="32" placeholder="Symptom 1" required="required" />
+        <input type="text" name="33" placeholder="Symptom 2" required="required" />
+        <input type="text" name="34" placeholder="Symptom 3" required="required" />
+        <input type="text" name="35" placeholder="Symptom 4" required="required" />
+        <input type="text" name="36" placeholder="Symptom 5" required="required" />
+
+        <button type="submit" class="btn">Predict</button>
+    </form>
+
+<br>
+<br>
+{{prediction_text}}
+
+</div>
+
