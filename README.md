@@ -46,3 +46,15 @@
    - Stecking на KNeighborsClassifier, DecisionTreeClassifier, RandomForestClassifier, GradientBoostingClassifier;
 - полносвязная нейронная сеть ручной подборкой архитектуры;
 - полносвязная нейронная сеть с подборкой архитектуры посредством Keras Tuner.
+
+  ## Файлы в репозитории проекта:
+
+  - mfdp.ipynb - тетрадка Jupyter Notebook с кодом EDA, ELT и ML-моделей;
+  - app.ipynb - тетрадка Jupyter Notebook с кодом flask-приложения;
+  - app.py - скрипт python с кодом flask-приложения;
+  - readme.md - файл с описанием проекта;
+  - requirements.txt - файл с зависимостями;
+  - templates - папка с шаблоном для flask-приложения;
+  - MVP.docx - файл с описанием MVP;
+  - source_data - папка с исходным датасетом;
+  - preprocessing_data - папка с обработанным датасетом.
