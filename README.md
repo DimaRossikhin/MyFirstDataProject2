@@ -57,4 +57,5 @@
   - templates - папка с шаблоном для flask-приложения;
   - MVP.docx - файл с описанием MVP;
   - source_data - папка с исходным датасетом;
-  - preprocessing_data - папка с обработанным датасетом.
+  - preprocessing_data - папка с обработанным датасетом;
+  - Dockerfile - файл докерфайл.
